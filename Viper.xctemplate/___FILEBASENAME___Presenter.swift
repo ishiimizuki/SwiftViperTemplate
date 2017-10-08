@@ -8,19 +8,19 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___PresenterInput: class {
+protocol ___VARIABLE_moduleName___PresenterInput: class {
 }
 
-class ___FILEBASENAMEASIDENTIFIER___Presenter {
-    var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput!
-    weak var view: ___FILEBASENAMEASIDENTIFIER___UserInterface!
-    var wireframe: ___FILEBASENAMEASIDENTIFIER___Wireframe!
+class ___VARIABLE_moduleName___Presenter {
+    var interactor: ___VARIABLE_moduleName___InteractorInput!
+    weak var view: ___VARIABLE_moduleName___UserInterface!
+    var wireframe: ___VARIABLE_moduleName___Wireframe!
 }
 
-// MARK: - ___FILEBASENAMEASIDENTIFIER___PresenterInput
-extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___PresenterInput {
+// MARK: - ___VARIABLE_moduleName___PresenterInput
+extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___PresenterInput {
 }
 
-// MARK: - ___FILEBASENAMEASIDENTIFIER___InteractorOutput
-extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
+// MARK: - ___VARIABLE_moduleName___InteractorOutput
+extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___InteractorOutput {
 }

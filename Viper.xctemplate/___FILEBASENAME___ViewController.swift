@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___UserInterface: class {
+protocol ___VARIABLE_moduleName___UserInterface: class {
 }
 
-class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
-    var presenter: ___FILEBASENAMEASIDENTIFIER___PresenterInput!
+class ___VARIABLE_moduleName___ViewController: UIViewController {
+    var presenter: ___VARIABLE_moduleName___PresenterInput!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +23,6 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
     }
 }
 
-// MARK: - ___FILEBASENAMEASIDENTIFIER___UserInterface
-extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___UserInterface {
+// MARK: - ___VARIABLE_moduleName___UserInterface
+extension ___VARIABLE_moduleName___ViewController: ___VARIABLE_moduleName___UserInterface {
 }

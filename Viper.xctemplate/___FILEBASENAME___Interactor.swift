@@ -8,16 +8,16 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___InteractorInput: class {
+protocol ___VARIABLE_moduleName___InteractorInput: class {
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___InteractorOutput: class {
+protocol ___VARIABLE_moduleName___InteractorOutput: class {
 }
 
-class ___FILEBASENAMEASIDENTIFIER___Interactor {
-    weak var presenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutput!
+class ___VARIABLE_moduleName___Interactor {
+    weak var presenter: ___VARIABLE_moduleName___InteractorOutput!
 }
 
-// MARK: - ___FILEBASENAMEASIDENTIFIER___InteractorInput
-extension ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput {
+// MARK: - ___VARIABLE_moduleName___InteractorInput
+extension ___VARIABLE_moduleName___Interactor: ___VARIABLE_moduleName___InteractorInput {
 }

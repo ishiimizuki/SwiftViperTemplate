@@ -8,16 +8,16 @@
 
 import UIKit
 
-struct ___FILEBASENAMEASIDENTIFIER___WireframeEntry {
+struct ___VARIABLE_moduleName___WireframeEntry {
 }
 
-class ___FILEBASENAMEASIDENTIFIER___Wireframe {
-    var viewController: ___FILEBASENAMEASIDENTIFIER___ViewController!
+class ___VARIABLE_moduleName___Wireframe {
+    weak var viewController: ___VARIABLE_moduleName___ViewController!
     
-    private func configurator(entry: ___FILEBASENAMEASIDENTIFIER___WireframeEntry) -> ___FILEBASENAMEASIDENTIFIER___ViewController {
-        let interactor = ___FILEBASENAMEASIDENTIFIER___Interactor()
-        let presenter = ___FILEBASENAMEASIDENTIFIER___Presenter()
-        let view = ___FILEBASENAMEASIDENTIFIER___ViewController()
+    private func configurator(entry: ___VARIABLE_moduleName___WireframeEntry) -> ___VARIABLE_moduleName___ViewController {
+        let interactor = ___VARIABLE_moduleName___Interactor()
+        let presenter = ___VARIABLE_moduleName___Presenter()
+        let view = ___VARIABLE_moduleName___ViewController()
         interactor.presenter = presenter
         presenter.interactor = interactor
         presenter.view = view
